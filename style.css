@@ -1,0 +1,124 @@
+html{
+    font-family: 'Merriweather', serif;
+}
+
+body{
+    background-image:url("img/bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.head{
+    text-align: center;
+    color:antiquewhite;
+    border: 0.5px solid powderblue;
+    line-height: 0.5px;
+}
+table{
+    width: 500px;
+    background: rgb(126,156,168);
+    margin:60px 60px 5px 60px;
+}
+
+#ShowTable{
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+#ShowTable td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+#ShowTable tr{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.table-show{
+    display: inline;
+    float:right;
+    
+}
+.data{
+    display: inline;
+    float: left;
+}
+
+td{
+    border: none rgb(205,201,201);
+    text-align: center;
+    padding: 9px 3px;
+}
+.box{
+    text-align: left;
+}
+.circle{
+    text-align: left;
+}
+tr:nth-child(even), #ShowTable thread> tr{
+    background-color: rgb(205,201,201);
+}
+input[type="text"],input[type="number"]{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none  rgb(166,162,162);
+    border-radius: 4px;
+}
+input[type="chekbox"],input[type="rdio"]{
+    width:25px;
+    top:0;
+    left:0;
+    height:25px;
+    position:absolute;
+    border-radius: 50%;
+    display: inline-block;
+    text-align:left ;
+}
+
+input[type="Submit"],input[type="Clear"]{
+    background: #fff;
+    padding:6px 12px;
+    margin: 20px 20px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+input[type="Submit"]:hover{
+    background: #4b99d7;
+}
+input[type="Clear"]:hover{
+    background: #4b99d7;
+}
+#enroll-stu{
+    background: #fff;
+    padding: 6px 12px;
+    margin: 1px 1px 0px 60px;
+    display: inline-block;
+    border: none;
+    border-radius:30px;
+    font-size:1rem;
+    cursor: pointer;
+    outline:none;
+}
+#clear{
+    background: #fff;
+    padding: 6px 12px;
+    margin: 1px 1px 0px 10px;
+    display: inline-block;
+    border: none;
+    border-radius:30px;
+    font-size:1rem;
+    cursor: pointer;
+    outline:none;
+}
+#enroll-stu:hover{
+    background:#4b99d7;
+}
+#clear:hover{
+    background:#4b99d7;
+}
+
